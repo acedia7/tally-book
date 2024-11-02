@@ -25,6 +25,7 @@ def add_record(request):
 @api_view(['GET'])
 def get_records(request):
     records = read_records()
+    print("读取的记录:", records)
 
     # 获取查询参数
     year = request.query_params.get('year')
