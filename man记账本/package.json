@@ -1,0 +1,18 @@
+{
+    "id": "sa-jizhangben",
+    "name": "个人记账本",
+    "displayName": "个人记账本",
+    "version": "1.0.0",
+    "description": "基于 uniapp 开发的个人记账本，代码简洁，无第三方依赖，方便二次开发。",
+    "keywords": [
+        "uniapp",
+        "记账",
+        "账本"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    }
+}
