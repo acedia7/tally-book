@@ -1,0 +1,66 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "man记账",
+				"navigationBarBackgroundColor": "#70a6d3",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/add",
+			"style": {
+				"navigationBarTitleText": "记账"
+			}
+		},
+		{
+			"path": "pages/index/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/index/article",
+			"style": {
+				"navigationBarTitleText": "内容"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#333",
+		"selectedColor":"#000000",
+		"backgroundColor":"#ffffff",
+		"borderStyle":"black",
+		"fontSize":"12px",
+		"iconWidth":"20px",
+		"spacing":"5px",
+		"height":"60px",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+		     "text":"首页",
+		     "iconPath":"./static/tabbar/home.png",
+		     "selectedIconPath":"./static/tabbar/home_art.png"
+		  },
+		  {
+		    "pagePath":"pages/index/add",
+		    "text":"记账",
+		    "iconPath":"./static/tabbar/add.png",
+		    "selectedIconPath":"./static/tabbar/add_art.png"
+		  },
+		  {
+		    "pagePath":"pages/index/user",
+		    "text":"我的",
+		    "iconPath":"./static/tabbar/user.png",
+		    "selectedIconPath":"./static/tabbar/user_art.png"
+		  }
+		]
+	}
+}
