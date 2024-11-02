@@ -41,33 +41,38 @@
 					},
 					{
 						id: 2,
-						title: '教育',
-						icon: 'jiaoyu'
+						title: '交通',
+						icon: 'jiaotong'
 					},
 					{
 						id: 3,
-						title: '旅行',
-						icon: 'lvxing'
+						title: '娱乐',
+						icon: 'yule'
 					},
 					{
 						id: 4,
-						title: '汽车',
-						icon: 'qiche'
+						title: '日用',
+						icon: 'riyong'
 					},
 					{
 						id: 5,
-						title: '书籍',
-						icon: 'shuji'
+						title: '住房',
+						icon: 'zhufang'
 					},
 					{
 						id: 6,
-						title: '运动',
-						icon: 'yundong'
+						title: '水电',
+						icon: 'shuidian'
 					},
 					{
 						id: 7,
-						title: '住房',
-						icon: 'zhufang'
+						title: '医疗',
+						icon: 'yiliao'
+					},
+					{
+						id: 8,
+						title: '其它',
+						icon: 'qita'
 					}
 				],
 				income: [
@@ -157,7 +162,7 @@
 	.sa-tabs {
 		min-height: 40px;
 		margin: 0 20rpx;
-		background-color: #fff;
+		background-color: #bee2f5;
 		border-bottom: 1px solid #f5f5f5;
 		border-radius: 20rpx 20rpx 0 0;
 		.item {
@@ -192,16 +197,16 @@
 				font-size: 48rpx;
 				border-radius: 50%;
 				color: #fff;
-				background-color: #999;
+				background-color: #f3f3f3;
 				&.active {
-					background-color: #07c160;
+					background-color: #bee2f5;
 				}
 				image {
-					width: 40rpx;
-					height: 40rpx;
+					width: 50rpx;
+					height: 50rpx;
 				}
 				&.active {
-					background-color: #07c160;
+					background-color: #bee2f5;
 					color: #fff;
 				}
 				&.add {
@@ -215,7 +220,7 @@
 				font-size: 30rpx;
 				color: #000;
 				&.active {
-					color: #07c160;
+					color: #0e4f71;
 				}
 			}
 		}
@@ -244,7 +249,7 @@
 		line-height: 120rpx;
 		font-size: 36rpx;
 		text-align: center;
-		background-color: #07c160;
+		background-color: #0e4f71;
 		color: #fff;
 		border-radius: 20rpx;
 	}

@@ -3,8 +3,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "ManMan记账本",
-				"navigationBarBackgroundColor": "#07c160",
+				"navigationBarTitleText": "man记账",
+				"navigationBarBackgroundColor": "#70a6d3",
 				"navigationBarTextStyle": "white"
 			}
 		},

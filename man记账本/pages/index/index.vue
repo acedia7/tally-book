@@ -52,7 +52,7 @@
 		<view class="sa-flex-y center sa-error" v-if="dataList.length == 0">
 			<view class="info">
 				<image class="cover" src="@/static/nocon.png" mode="aspectFit"></image>
-				<view class="text">~ 美好生活，米粒相伴 ~</view>
+				<view class="text">~ 美好生活，man相伴 ~</view>
 			</view>
 		</view>
 	</view>
@@ -126,7 +126,7 @@
 		left: 0;
 		right: 0;
 		z-index: 1;
-		background-color: #07c160;
+		background-color: #70a6d3;
 		padding: 0 30rpx;
 		.content {
 			height: 230rpx;
@@ -201,7 +201,7 @@
 				height: 80rpx;
 				border-radius: 50%;
 				&.expend {
-					background-color: #07c160;
+					background-color: #bee2f5;
 				}
 				&.income {
 					background-color: #f1b73a;
