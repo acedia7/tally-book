@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',  # Django REST framework
+    'records',  # 替换为你的应用名称
 ]
 
 MIDDLEWARE = [
