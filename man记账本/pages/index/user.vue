@@ -3,7 +3,7 @@
 		<view class="sa-user-info">
 			<view class="sa-flex-x space desc">
 				<view class="userinfo">
-					<view class="nickname">用户_bwaUN</view>
+					<view class="nickname">用户_man</view>
 					<view class="sign">更换个人信息</view>
 				</view>
 				<view class="cover">
