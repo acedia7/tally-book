@@ -1,0 +1,21 @@
+"""
+ASGI config for bookkeeping project.
+This is the ASGI configuration file for a Django project named 'bookkeeping'.
+It exposes the ASGI callable as a module-level variable named ``application``.
+For more information on this file, see
+https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
+"""
+
+# Import the os module to interact with the operating system
+import os
+
+# Import the get_asgi_application function from django.core.asgi
+from django.core.asgi import get_asgi_application
+
+# Set the DJANGO_SETTINGS_MODULE environment variable to the settings module of the 'bookkeeping' project
+# This tells Django where to find the settings for this project
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bookkeeping.settings')
+
+# Get the ASGI application callable from Django and assign it to the 'application' variable
+# This variable is used by ASGI servers to communicate with the Django project
+application = get_asgi_application()
